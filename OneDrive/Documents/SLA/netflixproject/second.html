@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style2.css">
+     <!-- for globe image -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="netflix-logo-container">
+            <img src="/img/brandlogo.png" alt="logo" class="logo-brand">
+        </div>
+    </div>
+    </header>
+    <section>
+        <div class="first">
+             <div class="first_bg_image_container">
+                <img src="/img/netflix.png" alt="background-image" class="first_bg_image">
+            </div>
+            <div class="first_bg_color_overlay"></div>
+            <div class="first_bg_color_overlay-1"></div>
+        <div class="main-section">
+            <div class="head-sign-in">
+                <h1>Sign in</h1>
+            </div>
+            <div class="email_form_container">
+            <form action="//www.linkedin.com/feed/" method="get">
+                <div class="email_container">
+                    <input type="email" placeholder=" " class="input_email_form" required>
+                    <label class="email_label">Email address</label> <!--this label only makes our animation only in bottom-->
+                </div>
+                <div class="pass_container">
+                    <input type="password" placeholder=" " class="pass_email_form" required>
+                    <label class="pass_label">Password</label>
+                </div>
+
+                <input type="submit" value="Sign in" class="primary-button">
+            </form>
+                <h4 class="or-word">OR</h4>
+
+                <a href="/third.html"><input type="submit" value="Use of sign-in code" class="primary-button button-1"></a>
+           
+            </div>
+            <p class="fp-word">Forget password?</p>
+            <div class="checking-area">
+                <input type="checkbox" class="check_box" required><label for="emailandpassword">   Remember me</label>
+                <h5>New to Netflix? <a href="/index.html">Sign up now.</a></h5>
+                <p class="protected-p">This page is protected by Google reCAPTCHA to ensure<br> you're not a bot. <a href="#" id="learn-more">Learn more.</a>
+                    <span class="hidden-para" style="display:none;">The information collected by Google reCAPTCHA is<br> subject to the Google Privacy Policy and Terms of<br> Service, and is used for providing, maintaining, and <br> improving the reCAPTCHA service and for general <br>security purposes (it is not used for personalised <br> advertising by Google).</span>
+                </p>
+                
+             </div>
+        </div>
+    </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer_row_1">
+            <h4>Questions? Call 000-800-919-1694</h4>
+        </div>
+        <div class="footer_row_2">
+            <div class="column-1">
+                <p><a href="#">FAQ</a></p>
+                <p><a href="#">Terms of Use</a></p>
+                <p><a href="#">Cookie Preferences</a></p>
+            </div>
+            <div class="column-2">
+                <p><a href="#">Help Centre</a></p>
+                <p><a href="#">Privacy</a></p>
+                <p><a href="#">Corporate Information</a></p>
+            </div>
+        </div>
+        <div class="footer_row_3">
+            <div class="dropdown-container">
+                <i class="fa fa-globe"></i>
+                <select name="languages" id="languagesSelect" class="language_drop_down">
+                    <option value="English" selected>English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </div>
+        </div>
+     </footer>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+</html>
